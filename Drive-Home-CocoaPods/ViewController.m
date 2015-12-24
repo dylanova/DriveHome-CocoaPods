@@ -24,11 +24,21 @@
                                                                  zoom:10.9];
     GMSMapView *mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     
-    //GMSMarker *marker = [[GMSMarker alloc] init];
-    //marker.position = camera.target;
-    //marker.snippet = @"Hello World";
-    //marker.appearAnimation = kGMSMarkerAnimationPop;
-    //marker.map = mapView;
+    mapView.trafficEnabled = YES;
+    
+    // Show Jollyville marker
+    GMSMarker *work_marker = [[GMSMarker alloc] init];
+    work_marker.position = jollyville;
+    work_marker.snippet = @"Jollyville";
+    work_marker.appearAnimation = kGMSMarkerAnimationPop;
+    work_marker.map = mapView;
+    
+    // Show home marker
+    GMSMarker *home_marker = [[GMSMarker alloc] init];
+    home_marker.position = pville_home;
+    home_marker.snippet = @"Home";
+    home_marker.appearAnimation = kGMSMarkerAnimationPop;
+    home_marker.map = mapView;
     
     self.view = mapView;
 }
