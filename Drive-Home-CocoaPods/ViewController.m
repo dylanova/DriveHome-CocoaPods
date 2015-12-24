@@ -24,11 +24,11 @@
                                                                  zoom:10.9];
     GMSMapView *mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     
-    GMSMarker *marker = [[GMSMarker alloc] init];
-    marker.position = camera.target;
-    marker.snippet = @"Hello World";
-    marker.appearAnimation = kGMSMarkerAnimationPop;
-    marker.map = mapView;
+    //GMSMarker *marker = [[GMSMarker alloc] init];
+    //marker.position = camera.target;
+    //marker.snippet = @"Hello World";
+    //marker.appearAnimation = kGMSMarkerAnimationPop;
+    //marker.map = mapView;
     
     self.view = mapView;
 }
