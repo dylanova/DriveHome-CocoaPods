@@ -16,7 +16,6 @@
 		3EF9D82E1C2B7D3700CE7129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF9D82C1C2B7D3700CE7129 /* LaunchScreen.storyboard */; };
 		3EF9D8391C2B7D3700CE7129 /* Drive_Home_CocoaPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9D8381C2B7D3700CE7129 /* Drive_Home_CocoaPodsTests.m */; };
 		3EF9D8441C2B7D3800CE7129 /* Drive_Home_CocoaPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9D8431C2B7D3800CE7129 /* Drive_Home_CocoaPodsUITests.m */; };
-		3EF9D8521C2B7DA100CE7129 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3EF9D8511C2B7DA100CE7129 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		3EF9D83F1C2B7D3800CE7129 /* Drive-Home-CocoaPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drive-Home-CocoaPodsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF9D8431C2B7D3800CE7129 /* Drive_Home_CocoaPodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drive_Home_CocoaPodsUITests.m; sourceTree = "<group>"; };
 		3EF9D8451C2B7D3800CE7129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EF9D8511C2B7DA100CE7129 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		4DE2707F859AEA248EEBDA38 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		79905B74F0F65ABAE633B6FE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,7 +125,6 @@
 				3EF9D82C1C2B7D3700CE7129 /* LaunchScreen.storyboard */,
 				3EF9D82F1C2B7D3700CE7129 /* Info.plist */,
 				3EF9D81E1C2B7D3700CE7129 /* Supporting Files */,
-				3EF9D8511C2B7DA100CE7129 /* Podfile */,
 			);
 			path = "Drive-Home-CocoaPods";
 			sourceTree = "<group>";
@@ -278,7 +275,6 @@
 			files = (
 				3EF9D82E1C2B7D3700CE7129 /* LaunchScreen.storyboard in Resources */,
 				3EF9D82B1C2B7D3700CE7129 /* Assets.xcassets in Resources */,
-				3EF9D8521C2B7DA100CE7129 /* Podfile in Resources */,
 				3EF9D8291C2B7D3700CE7129 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,7 +494,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Drive-Home-CocoaPods/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Dylanova-Inc.Drive-Home-CocoaPods";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanova.Drive-Home-CocoaPods";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -510,7 +506,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Drive-Home-CocoaPods/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Dylanova-Inc.Drive-Home-CocoaPods";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanova.Drive-Home-CocoaPods";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
